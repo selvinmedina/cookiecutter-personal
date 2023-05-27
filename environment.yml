@@ -1,0 +1,16 @@
+# conda env create --file environment.yml
+name: cookiecutter_selvin
+channels:
+  - anaconda
+  - conda-forge
+  - defaultsdependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pip
+  - pyprojroot
+  - python=3.7
+  - pip:
+    - pyhere
+    
